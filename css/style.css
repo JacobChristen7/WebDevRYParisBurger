@@ -62,3 +62,48 @@ nav {
     padding: 10px 20px 10px 20px;
     margin-bottom: 120px;
 }
+
+#segment1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#segment1 div {
+    width: 1200px;
+}
+
+#segment1 h2 {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 30px 0px 0px 0px;
+}
+
+#segment1 p {
+    font-size: 24px;
+}
+
+#segment1Images {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 300px;
+}
+
+#segment1Images img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#segment1ImagesText {
+    display: flex;
+    justify-content: space-between;
+}
+
+#segment1ImagesText p {
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
