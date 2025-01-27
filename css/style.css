@@ -208,7 +208,7 @@ nav {
     width: 350px;
     height: 300px;
     object-fit: cover;
-    border: 7px solid rgb(221, 227, 255);;
+    border: 7px solid rgb(221, 227, 255);
 }
 
 #segment3Images p {
@@ -243,4 +243,40 @@ nav {
     color: black;
     padding-left: 20px;
     font-weight: 500;
+}
+
+/*start of the recipe page styles*/
+
+#recipeSegment1 {
+    background-color: rgb(221, 227, 255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#recipeSegment1TextContainer {
+    /*background-color: rgb(78, 110, 255);*/
+    width: 1200px;
+    display: flex;
+}
+
+#recipeSegment1TextContainer div {
+    flex-direction: column;
+}
+
+#recipeSegment1TextContainer h4 {
+    font-weight: 900;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#recipeSegment1TextContainer p {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.boldText {
+    font-weight: 900;
 }
