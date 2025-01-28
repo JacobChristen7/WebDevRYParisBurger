@@ -257,11 +257,17 @@ nav {
 #recipeSegment1TextContainer {
     /*background-color: rgb(78, 110, 255);*/
     width: 1200px;
+    padding: 40px 0px 40px 0px;
     display: flex;
+    align-items: end;
 }
 
 #recipeSegment1TextContainer div {
     flex-direction: column;
+}
+
+#recipeSegment1TextContainer div:last-of-type {
+    padding-bottom: 25px;
 }
 
 #recipeSegment1TextContainer h4 {
@@ -274,9 +280,134 @@ nav {
 #recipeSegment1TextContainer p {
     font-size: 20px;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 165px 0px 0px;
 }
 
 .boldText {
     font-weight: 900;
+}
+
+#recipeSegment2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#recipeSegment2 > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#recipeSegment2 h2 {
+    font-size: 40px;
+    padding: 100px 0px 0px 0px;
+    margin: 0px;
+}
+
+#recipeSegment2Review p {
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+.starColor {
+    color: rgba(194, 0, 0, 0.758);
+    font-size: 24px;
+}
+
+#recipeSegment2SaveRecipe {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 50px 0px;
+}
+
+#recipeSegment2SaveRecipe button:first-of-type {
+    background-color: rgba(194, 0, 0, 0.758);
+    display: inline-block;
+    color: white;
+    border: 0px;
+    border-radius: 25%;
+    height: 30px;
+    margin-right: 20px;
+}
+
+#recipeSegment2SaveRecipe button:first-of-type:hover {
+    background-color: rgba(167, 0, 0, 0.758);
+}
+
+#recipeSegment2SaveRecipe button:last-of-type {
+    font-size: 30px;
+    border: 1px solid gray;
+    border-radius: 100%;
+}
+
+#recipeSegment2SaveRecipe button:last-of-type:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+#recipeSegment2Description {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(221, 227, 255);
+}
+
+#recipeSegment2Description div {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+#recipeSegment2Description h4 {
+    font-size: 28px;
+    word-spacing: -2px;
+    color: rgb(60, 60, 60);
+    text-align: center;
+}
+
+#recipeSegment3 {
+    display: flex;
+    justify-content: center;
+}
+
+#instructionsContainer {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+#recipeSegment3 div {
+    width: 1200px;
+}
+
+#recipeSegment3 h3 {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0px 0px 0px 0px;
+}
+
+#recipeSegment3 ul {
+    padding: 0px 0px 0px 20px;
+}
+
+#recipeSegment3 li {
+    font-size: 16px;
+}
+
+#recipeSegment3 ul p {
+    padding: 0px 0px 0px 0px;
+}
+
+ol {
+    padding: 0px 0px 0px 20px;
+}
+
+ol li {
+    margin-bottom: 20px;
+}
+
+ol p {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 700;
 }
